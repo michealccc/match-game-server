@@ -8,6 +8,7 @@ const connectDB = require('./config/db');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var scoresRouter = require('./routes/scores');
 
 var playersRouter = require('./routes/players')
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/players', playersRouter);
+app.use('/scores', scoresRouter);
 
 connectDB();
 
