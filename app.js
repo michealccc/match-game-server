@@ -3,9 +3,10 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var cors = require('cors');
 
 const connectDB = require('./config/db');
-
+// routes
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var scoresRouter = require('./routes/scores');
@@ -30,6 +31,12 @@ app.use('/players', playersRouter);
 app.use('/scores', scoresRouter);
 
 connectDB();
+
+// cors
+app.use(cors({ origin: true, credentials: true }));
+
+// Init Middleware
+app.use(express.json({ extended: false }));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
