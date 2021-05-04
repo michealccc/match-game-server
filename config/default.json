@@ -1,3 +1,3 @@
 {
-    "mongoURI": "mongodb+srv://dev:GFCL460RMBaiDB0E@match-game-server.pv3up.mongodb.net/my_database?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://match-game-demo:ROMhB8hW3Z5IvxKL@match-game-server.pv3up.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
