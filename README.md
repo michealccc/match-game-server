@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/michealccc/match-game-server.svg?token=1RAYjFYZCDh9EfCiHC4M&branch=develop)](https://travis-ci.com/michealccc/match-game-server)
 
 # match-game-server
 
