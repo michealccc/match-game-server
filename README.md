@@ -2,11 +2,12 @@
 
 # match-game-server
 
-A backend for match game
+A backend for [https://github.com/myiwt/match-game-client](https://github.com/myiwt/match-game-client)
+
 
 ## Demo
 
-[Match Game Server Demo](https://match-game-server.herokuapp.com/).
+[Match Game Server Demo](https://match-game-server.herokuapp.com/)
 
 ## Tech Stack
 
