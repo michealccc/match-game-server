@@ -47,3 +47,4 @@ build/Release
 # Temporary folders
 tmp/
 temp/
+config/default.json
