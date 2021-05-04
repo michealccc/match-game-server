@@ -6,7 +6,7 @@ const ScoreSchema = new schema({
         type: String
     },
     score:{
-        type: String
+        type: Number
     },
     date: {
         type: Date,
