@@ -19,7 +19,7 @@ A backend for [https://github.com/myiwt/match-game-client](https://github.com/my
 Clone the project
 
 ```bash
-git clone https://github.com/michealccc/match-game-server
+git clone https://github.com/michealccc/match-game-server.git
 ```
 
 Go to the project directory
